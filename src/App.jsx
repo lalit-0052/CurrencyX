@@ -155,33 +155,63 @@ function App() {
     >
 
       {/* ================= HEADER ================= */}
+{/* ================= HEADER ================= */}
 
-      <div className="text-center mb-8">
+<div className="text-center mb-8">
 
-        <h1
-          className="
-            text-4xl
-            md:text-5xl
-            font-extrabold
-            tracking-wide
-            bg-gradient-to-r
-            from-blue-400
-            to-purple-500
-            bg-clip-text
-            text-transparent
-            drop-shadow-lg
-          "
-        >
-          CurrencyX
-        </h1>
+  {/* LOGO */}
+  <div className="flex justify-center mb-3">
+    <img
+      src="/currencyx-logo.png"
+      alt="CurrencyX Logo"
+      className="
+        w-20
+        h-20
+        object-contain
+        drop-shadow-2xl
+        transition-all
+        duration-300
+        hover:scale-110
+      "
+    />
+  </div>
 
-        <p className="text-white/80 mt-2 text-sm md:text-base">
-          Convert currencies quickly and easily
-        </p>
+  {/* TITLE */}
+  <h1
+    className="
+      text-4xl
+      md:text-5xl
+      font-extrabold
+      tracking-wide
+      bg-gradient-to-r
+      from-blue-400
+      to-purple-500
+      bg-clip-text
+      text-transparent
+      drop-shadow-lg
+    "
+  >
+    CurrencyX
+  </h1>
 
-        <div className="w-16 h-1 bg-gradient-to-r from-blue-500 to-purple-500 mx-auto mt-4 rounded-full" />
+  <p className="text-white/80 mt-2 text-sm md:text-base">
+    Convert currencies quickly and easily
+  </p>
 
-      </div>
+  <div
+    className="
+      w-16
+      h-1
+      bg-gradient-to-r
+      from-blue-500
+      to-purple-500
+      mx-auto
+      mt-4
+      rounded-full
+    "
+  />
+
+</div>
 
 
       {/* ================= CONVERTER CARD ================= */}
